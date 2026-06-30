@@ -1,6 +1,11 @@
+import Hello from "../components/hello"
+
 const Home = () => {
   return (
-    <div>Home page</div>
+    <main>
+      <Hello />
+      <div className="text-5xl ">Home page</div>
+    </main>
   )
 }
 
